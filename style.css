@@ -1,9 +1,13 @@
 *{
-    background-color: rgb(255, 255, 255);
+    
     margin: 0;
-    font-family: "Montserrat", "Fraunces";
+    font-family: 'Montserrat', sans-serif;
+
 }
     
+body{
+    background-color: rgb(219, 213, 208);
+}
 
 
     .container{
@@ -11,10 +15,10 @@
         margin-top: 50px;
         background-color: rgb(219, 213, 208);
         display: grid;
-        grid-template-columns: 260px 130px 130px;
+        grid-template-columns: 300px 150px 150px;
         grid-template-rows:  40px 120px 100px 50px 100px;
-        height: 800px;
-        width: 800px;
+        height: 900px;
+        width: 900px;
         
         place-content: center;
         border-radius: 35px;
@@ -23,7 +27,7 @@
         
     
        .item1{
-        background-color: black;
+      
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
@@ -33,10 +37,11 @@
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
        object-fit: cover;
+       background-color: white;
        }
 
        .destokimg{
-        width: 260px;
+        width: 300px;
         height: 410px;
         object-fit:fill;
         border-top-left-radius: 20px;
@@ -68,12 +73,14 @@
        .item4{
         grid-row-start: 4;
         grid-column-end: 3 ;
+        background-color: white;
         
        }
 
 .item6{
     grid-row-start: 4;
         grid-column-end: 4 ;
+        background-color: white;
        
         
 }
@@ -84,6 +91,7 @@
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-start: 5;
+    background-color: white;
 
 }
 
@@ -91,13 +99,13 @@
 
 .buttom{
     background-color: hsl(158, 36%, 37%);
-    width: 210px;
+    width: 260px;
     border: none;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 9px;
     margin-left: 20px;
     margin-top: 20px;
-    font-family: "Monserrat", "Fraunces";
+    text-align: center;
     color: white;
     font-size: 16px;
     
@@ -106,6 +114,7 @@
 .buttom img{
     width: 32px;
     height: 32px;
+    display: none;
 }
 
 .buttom:hover{
@@ -119,12 +128,13 @@
 
 .titulo{
     margin-left: 30px;
-    font-size: 35px;
+    font-size: 32px;
     margin-top: 9px;
     margin-right: 40px;
     color: hsl(212, 21%, 14%);
     font-weight: bold;
-    font-family: "Monserrat", "Fraunces";
+    font-family: 'Montserrat', sans-serif;
+
  
     
 }
@@ -184,6 +194,17 @@ margin-top: 8px;
 
 @media screen and (max-width: 375px ){
     
+    *{
+        
+        margin: 0;
+        
+    
+    }
+
+    body{
+        background-color: rgb(219, 213, 208);
+    }
+
     .container{
 
          background-color: rgb(219, 213, 208);
@@ -282,6 +303,8 @@ margin-top: 8px;
     font-size: 30px;
     margin-top: 9px;
     margin-right: 40px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
 
 }
 
@@ -291,8 +314,9 @@ margin-top: 8px;
     display: grid;
     margin-left: 31px;
     font-size: 14px;
-    margin-top: 15px;
+    margin-top: 25px;
     color: rgb(145, 145, 145);
+    
 }
 
 .parra{
@@ -300,6 +324,7 @@ margin-top: 8px;
     font-size: 20px;
 margin-top: 25px;
     margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -316,7 +341,7 @@ margin-top: 25px;
     color: hsl(158, 36%, 37%);
     font-family: bold;
     margin-left: 27px;
-    margin-top: 5px;
+    margin-top: 20px;
     font-weight:bolder;
     font-family: "Monserrat", "Fraunces";
 }
@@ -325,8 +350,8 @@ margin-top: 25px;
     font-size: 20px;
     color: rgb(153, 156, 153);
     font-family: bold;
-    margin-top: 13px;
-    margin-left: 30px;
+    margin-top: 25px;
+    margin-left: 0px;
     text-decoration: line-through;
     font-family: "Monserrat", "Fraunces";
     
